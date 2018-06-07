@@ -7,7 +7,7 @@ $land = $land > 3 ? 1 : $land;
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-  <title>Разработка продающих Landing Page1</title>
+  <title>Разработка продающих Landing Page</title>
   <link href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css" rel="stylesheet" >
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
