@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('../fonts/proxima/Proxima Nova Bold.eot');
+    src: local('☺'), url('../fonts/proxima/Proxima Nova Bold.woff') format('woff'), url('../fonts/proxima/Proxima Nova Bold.ttf') format('truetype'), url('../fonts/proxima/Proxima Nova Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('../fonts/proxima/Proxima Nova Regular.eot');
+    src: local('☺'), url('../fonts/proxima/Proxima Nova Regular.woff') format('woff'), url('../fonts/proxima/Proxima Nova Regular.ttf') format('truetype'), url('../fonts/proxima/Proxima Nova Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Light';
+    src: url('../fonts/proxima/Proxima Nova Light.eot');
+    src: local('☺'), url('../fonts/proxima/Proxima Nova Light.woff') format('woff'), url('../fonts/proxima/Proxima Nova Light.ttf') format('truetype'), url('../fonts/proxima/Proxima Nova Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Black';
+    src: url('../fonts/proxima/Proxima Nova Black.eot');
+    src: local('☺'), url('../fonts/proxima/Proxima Nova Black.woff') format('woff'), url('../fonts/proxima/Proxima Nova Black.ttf') format('truetype'), url('../fonts/proxima/Proxima Nova Black.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {min-width: 960px;}
+.minimal {min-width: 960px; position: relative}
+.container-fix {width: 980px;  position: relative;}
+.wrap--sc {
+    min-width: 960px; overflow: hidden;
+}
+.title, .title2 {font-family: 'Proxima Nova Black'; font-size: 45px; color: #000; text-align: center; text-transform: uppercase}
+.title2 {margin-top: 50px;}
+.line {width: 100%; padding: 5px 0 10px 0; text-align: center}
+.title-text {font-family: 'Proxima Nova Light'; font-size: 20px; color: #363636; text-align: center;}
+.pad50 {padding-top: 50px;}
+.pad30 {padding-top: 30px;}
+
+.menu-top {background: #000000; width: 100%; height: 108px;}
+.menu-top .logo {background: url("../img/logo.png") no-repeat; width: 100px; height: 36px; margin-top: 20px; float: left}
+.menu-top .contacts {float: right; color: #ffffff; text-align: right; padding-top: 10px;}
+.menu-top .contacts p.text {font-family: 'Proxima Nova Regular'; text-decoration: none; font-size: 14px; line-height: 28px; color: #979797; padding: 0; margin: 0}
+.menu-top .contacts p.phone {font-family: 'Proxima Nova Bold'; text-decoration: none; font-size: 24px; line-height: 28px; color: #ffffff; padding: 0; margin: 0}
+.menu-top .contacts p.phone a{text-decoration: none; color:#ffffff;}
+.menu-top .menu {float: left; line-height: 80px; padding-left: 30px;}
+.menu-top .menu ul {margin: 0; padding: 0; list-style: none}
+.menu-top .menu ul li {float: left}
+.menu-top .menu ul li a {font-family: 'Proxima Nova Bold'; font-size: 13px; color: #ffffff; margin: 10px 6px; border-bottom: 1px solid #404040}
+.menu-top .right-box {padding: 20px; position: absolute; z-index: 2000; right: 30px;}
+.menu-top .right-box .dots {background: url("../img/right_dots.png") no-repeat center top; width: 60px; height: 10px; margin: 10px 0;}
+.menu-top .right-box .dots.check {background: url("../img/right_dots.png") no-repeat bottom center; width: 60px; height: 10px; margin-bottom: 10px;}
+#top-btn {padding-bottom: 20px;}
+
+.banner {float: left; margin-top: 80px; width: 100%; min-height: 756px; overflow-x: hidden}
+.banner-slide {min-height: 756px;}
+.banner-bg {background: url("../img/banner/bg.jpg") no-repeat center;  min-height: 756px; background-size: cover;}
+.banner-slide {margin-top: 0px;}
+
+.box-banner {width: 980px;}
+.box-banner p.zag {font-family: 'Proxima Nova Light'; font-size: 58px; text-transform: uppercase}
+.box-banner p.zag span {font-family: 'Proxima Nova Black';}
+.box-banner p.zag2 {font-family: 'Proxima Nova Light'; font-size: 28px; line-height: 100px;}
+.box-banner .box-timmer {width: 21%; text-align: center; float: left}
+.box-banner .box-timmer p.number {font-family: 'Proxima Nova Bold'; font-size: 101px; margin: 0; line-height: 78px; display: inline-block}
+.box-banner .box-timmer p.text-timmer {font-family: 'Proxima Nova Bold'; font-size: 16px;}
+.carousel-inner > .item {height: 100%; min-height: 756px}
+
+.pict-phone {position: absolute; background: url("../img/banner/phone.png") no-repeat; width: 385px; height: 641px; background-size: cover; z-index: 1000; right: 0; bottom: 0px;}
+.pict-imac {position: absolute; background: url("../img/banner/imac.png") no-repeat; width: 512px; height: 612px; background-size: cover; z-index: 1000; right: 10%; top: 100px;}
+.pict-mac {position: absolute; background: url("../img/banner/mac.png") no-repeat; width: 636px; height: 343px; background-size: cover; z-index: 1000; right: 10%; top: 250px;}
+.box-banner a {color: #000000}
+.box-banner a:hover {color: #000000}
+.banner-btn {height: 71px; width: 371px; background: url("../img/banner/banner_btn.png") no-repeat; font-family: 'Proxima Nova Bold'; font-size: 26px; text-shadow: 1px 1px 1px #fff; padding-right: 40px; margin-top: 50px;}
+.banner-btn:focus, .banner-btn:active {height: 71px; width: 371px; background: url("../img/banner/banner_btn.png") no-repeat; font-family: 'Proxima Nova Bold'; font-size: 26px; text-shadow: 1px 1px 1px #fff; padding-right: 40px; margin-top: 50px;}
+
+.section2 {float: left; background-color: #f6f6f6; width: 100%; padding: 30px 0;}
+.section2 p.text {font-family: 'Proxima Nova Regular'; font-size: 22px; line-height: 30px; color: #363636; text-align: left}
+
+.section3 {float: left; width: 100%; background: url("../img/section3/bg.jpg"); height: 760px; }
+.section3 .left {background: url("../img/section3/left.png"); height: 620px; width: 145px; position: absolute; left: 0;}
+.section3 .right {background: url("../img/section3/right.png"); height: 658px; width: 95px; position: absolute; right: 0;}
+.section3 .timeline {background: url("../img/section3/center.png") no-repeat; width: 980px; height: 550px; position: relative}
+.section3 .timeline .box-inner {text-align: center; width: 225px;}
+.section3 .timeline .box-inner p.text {font-family: 'Proxima Nova Regular'; font-size: 18px; line-height: 26px; color: #363636; padding-top: 10px;}
+.box1 {position: absolute; top: 40px}
+.box2 {position: absolute; top: 40px; left: 375px;}
+.box3 {position: absolute; top: 40px; left: 751px;}
+.box4 {position: absolute; top: 300px}
+.box5 {position: absolute; top: 300px; left: 375px;}
+.box6 {position: absolute; top: 300px; left: 751px;}
+
+.section4 {float: left; width: 100%; background: url("../img/section4/bg.jpg"); height: 833px;}
+.section4 .box {width: 45%; float: left; padding-top: 30px;}
+.section4 .box-line {width: 10%; float: left; text-align: center; padding-top: 30px;}
+.section4 .box p.title3 {font-family: 'Proxima Nova Bold'; font-size: 28px; line-height: 58px; color: #000000;}
+.section4 .box .box-list {margin-bottom: 15px; float: left}
+.section4 .box p.list {font-family: 'Proxima Nova Regular'; font-size: 16px; line-height: 20px; color: #000000; margin-left: 50px;}
+.section4 .box span {font-family: 'Proxima Nova Bold'; font-size: 16px; background: url("../img/section4/circle1.png") no-repeat; width: 30px; height: 30px; display: inline-block; text-align: center;  margin-right: 20px; float: left; padding-top: 4px; margin-top: -6px;}
+.section4 .box.green span {font-family: 'Proxima Nova Bold'; font-size: 16px; background: url("../img/section4/circle2.png") no-repeat; width: 30px; height: 30px; display: inline-block; text-align: center;  margin-right: 20px; float: left; padding-top: 4px; margin-top: -6px;}
+
+.section5 {float: left; width: 100%; padding-top: 50px; padding-bottom: 50px;}
+.section5 .box {width: 980px; height: 921px; margin-top: 50px; position: relative;}
+.section5 .box .box-pict {position: absolute; float: left}
+.box21 {left: 0; top: 0}
+.box22 {left: 356px; top: 0}
+.box23 {right: 50px; top: 0;}
+.box24 {left: 0; bottom: 307px;}
+.box25 {left: 356px; bottom: 307px;}
+.box26 {right: 50px; bottom: 307px;}
+.box27 {left: 0; bottom: 0;}
+.box28 {left: 356px; bottom: 0;}
+.box29 {right: 50px; bottom: 0;}
+.box27 .text, .box28 .text, .box29 .text {
+    bottom: 0px !important;
+}
+.section5 .box .box-pict .text {position: absolute; bottom: 20px; text-align: center; width: 265px; font-family: 'Proxima Nova Regular'; font-size: 18px; text-decoration: underline}
+.section5 .box .box-pict .modal-box {width: 265px; height: 330px; border-radius: 10px; border: 2px solid #fec81b; position: absolute; z-index: 1000; top: -35px; padding: 20px; background: rgba(255,255,255,0.9); text-align: center; display: none}
+.section5 .box .box-pict .modal-box p.name {font-family: 'Proxima Nova Bold'; font-size: 24px; line-height: 26px; margin: 0}
+.section5 .box .box-pict .modal-box p.site {font-family: 'Proxima Nova Regular'; font-size: 16px; line-height: 30px; text-decoration: underline;}
+.section5 .box .box-pict .modal-box p.easy {font-family: 'Proxima Nova Regular'; font-size: 16px; line-height: 24px;}
+.section5 .box .box-pict .modal-box p.easy a.link{text-decoration: none; color:#000000;}
+.section5 .box .box-pict .modal-box p.easy a.link:hover{text-decoration: none; color:#000000;}
+.section5 .box .box-pict .modal-box .conv {width: 170px; height: 44px; background: #fec81b; display: inline-block; line-height: 44px; border-radius: 20px; font-family: 'Proxima Nova Bold'; font-size: 18px; margin: 15px 0;}
+.section5 .box .box-pict .modal-box a.link {font-family: 'Proxima Nova Bold'; font-size: 15px; color: #000; text-decoration: underline}
+.section5 .box .box-pict .modal-box a.link:hover {text-decoration: none}
+
+.section-clients {float: left; width: 100%; background: url("../img/clients/bg.jpg") center; height: 200px;}
+
+.calc {float: left; width: 100%; padding-bottom: 50px; min-height: 500px}
+.calc .left {background: url("../img/calc/abacus.jpg");  width: 454px; height: 456px; position: absolute; left: -300px;}
+.calc .box-calc {width: 100%; float: left}
+.calc .box-calc .row-box {width: 100%; float: left; margin-bottom: 25px;}
+.calc .box-calc .box-title {font-family: 'Proxima Nova Regular'; font-size: 16px; line-height: 37px; color: #2c2c2c; width: 200px; float: left; margin-top: 20px;}
+.calc .box-calc .count {border: 1px solid #d6d6d6; height: 37px; width: 100px; font-family: 'Proxima Nova Bold'; font-size: 18px; float: left; padding: 5px 10px; margin-top: 20px;}
+.calc .box-calc .box-text {font-family: 'Proxima Nova Regular'; font-size: 16px; line-height: 37px; color: #2c2c2c; width: 120px; float: left; padding-left: 20px; margin-top: 20px;}
+.calc .box-calc .box-slider {height: 37px; width: 530px; float: left; padding-top: 32px;}
+.calc .border {width: 100%; float: left; margin-top: 50px; position: relative; text-align: center; background: url("../img/calc/border.png") center no-repeat; height: 310px; margin-bottom: 50px;}
+.calc .border .top-title {font-family: 'Proxima Nova Regular'; font-size: 24px; position: relative; top: -10px;}
+.calc .border .point {width: 313px; float: left; margin-top: 30px;}
+.calc .border .point p.easytext {font-family: 'Proxima Nova Regular'; font-size: 16px;}
+.calc .border .point .counttext {font-family: 'Proxima Nova Regular'; font-size: 28px; line-height: 42px;}
+
+
+.section-subscribe {float: left; width: 100%; background: url("../img/clients/bg.jpg") center; height: 200px; padding-top: 70px;}
+.sub-input {height: 69px; background: url("../img/subscribe/input.png") no-repeat; width: 286px; border: none; font-family: 'Proxima Nova Regular'; font-size: 26px; float: left; margin-right: 24px;}
+.sub-input::-webkit-input-placeholder, .sub-input:-moz-placeholder, .sub-input::-moz-placeholder, .sub-input:-ms-input-placeholder
+{color: #bcb2a0; text-shadow: 1px 1px 1px #fff; font-family: 'Proxima Nova Regular'; font-size: 14px;}
+.sub-btn {height: 71px; width: 330px; background: url("../img/subscribe/btn.png") no-repeat; font-family: 'Proxima Nova Bold'; font-size: 26px; text-shadow: 1px 1px 1px #fff;}
+.sub-btn:focus, .sub-btn:active {height: 71px; width: 330px; background: url("../img/subscribe/btn.png") no-repeat; font-family: 'Proxima Nova Bold'; font-size: 26px; text-shadow: 1px 1px 1px #fff;}
+
+.section6 {float: left; width: 100%; padding-top: 50px; padding-bottom: 50px; background: #f3f3f3;}
+.section6 .table-box {position: relative; margin-top: 50px; z-index: 1}
+.section6 .table-row {border-bottom: 1px solid #e0e0e0; padding: 15px 0; }
+.section6 .table-row2 {padding: 15px 0;}
+.section6 p.header1 {text-align: center; font-family: 'Proxima Nova Bold'; font-size: 28px; margin: 0; text-decoration: underline}
+.section6 p.header2 {text-align: center; font-family: 'Proxima Nova Regular'; font-size: 16px; margin: 0; color: #767676}
+.section6 .minus {background: url("../img/paket/minus.png") no-repeat center; width: 188px; height: 24px;}
+.section6 .plus {background: url("../img/paket/plus.png") no-repeat center; width: 188px; height: 24px;}
+.section6 p.punct {font-family: 'Proxima Nova Bold'; font-size: 14px; margin: 0}
+.section6 .byu {width: 170px; height: 46px; background: url("../img/paket/buy.png"); text-align: center; display: inline-block; font-family: 'Proxima Nova Bold'; font-size: 18px; line-height: 46px; z-index: 30; position: relative; color: #333; text-decoration: none;}
+.section6 .obvodka, .section6 .obvodka2 {position: absolute; top: 0; right: -15px; width: 655px; height: 1047px; border: 2px solid #e0e0e0; border-radius: 10px; overflow: hidden;}
+.section6 .obvodka .colum {width: 217px; float: left; height: 1480px; position: relative; z-index: 20;}
+.columhover {width: 217px; float: left; height: 1480px; position: relative; z-index: -20;}
+.columhover.active {background: #f4edd7;}
+
+.section7 {float: left; width: 100%; padding-top: 50px; padding-bottom: 50px; position: relative}
+.section7 .right {background: url("../img/section7/table.png"); height: 214px; width: 241px; position: absolute; right: 0;}
+.section7 .box {float: left; width: 254px; margin-right: 94px;}
+.section7 .boxlast {float: left; width: 254px;}
+.section7 .photo1, .section7 .photo2, .section7 .photo3 {background: url("../img/section7/ph1_b.jpg"); width: 254px; height: 275px; position: relative}
+.section7 .photo2 {background: url("../img/section7/ph2_b.jpg");}
+.section7 .photo3 {background: url("../img/section7/ph3_b.jpg");}
+.section7 .photo1:hover, .section7 .photo2:hover, .section7 .photo3:hover {background: url("../img/section7/ph1.jpg"); width: 254px; height: 275px; position: relative;}
+.section7 .photo2:hover {background: url("../img/section7/ph2.jpg");}
+.section7 .photo3:hover {background: url("../img/section7/ph3.jpg");}
+.section7 .maska {position: absolute; background: url("../img/section7/photo.png"); width: 254px; height: 275px;}
+.section7 p.name {font-family: 'Proxima Nova Bold'; font-size: 20px; margin: 0; text-transform: uppercase; margin-top: 20px}
+.section7 p.office {font-family: 'Proxima Nova Regular'; font-size: 16px; margin: 0; text-transform: uppercase; margin-bottom: 20px; color: #7c7c7c}
+.section7 p.text {font-family: 'Proxima Nova Regular'; font-size: 14px; margin: 0;}
+
+.map {/* float: left; */clear: both; width: 100%; height: 600px; position: relative}
+.map .box {position: absolute; height: 320px; width: 290px; top: 140px; padding: 35px; background: #ffffff}
+.map .box p.easy {font-family: 'Proxima Nova Regular'; font-size: 16px; color: #5c5c5c}
+.map .box p.bold {font-family: 'Proxima Nova Bold'; font-size: 16px; color: #000000}
+
+
+.modalDialog {position: fixed; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0,0,0,0.8); z-index: 99999; -webkit-transition: opacity 400ms ease-in; -moz-transition: opacity 400ms ease-in; transition: opacity 400ms ease-in; display: none; pointer-events: none;}
+.modalDialog:target {display: block; pointer-events: auto;}
+.modalDialog > .modalDialog-pismo {width: 650px; position: relative; margin: 10% auto; padding: 40px; border-radius: 10px; background: #f8f8f8; text-align: left}
+.modalDialog > .modalDialog-pismo p.title-pismo {font-family: 'Proxima Nova Light'; font-size: 42px; line-height: 46px;}
+.modalDialog > .modalDialog-pismo p.text-pismo {font-family: 'Proxima Nova Light'; font-size: 28px; line-height: 36px;}
+.closed {background: url("../img/modal_close.png") no-repeat; width: 29px; height: 28px; position: absolute; top: -15px; right: -16px;}
+.SectionModalInner {width: 650px; position: absolute; top: 50%; left: 50%; margin: -307px 0 0 -325px; border-radius: 10px; background: #f8f8f8; border: 4px solid #f6af40; }
+.SectionModalInner-pict {height: 530px; overflow-y: scroll; border-top-left-radius: 6px; border-top-right-radius: 6px;}
+.SectionModalInner-pict::-webkit-scrollbar{width:10px; background-color: transparent;}
+.SectionModalInner-pict::-webkit-scrollbar-thumb{background-color:#f6af40; border-radius:10px;}
+.SectionModalInner-pict img {width: 100%}
+.SectionModalInner-down {background: url("../img/modal_down.png") no-repeat center; width: 645px; height: 76px; overflow: hidden}
+.SectionModalInner-down .box {float: left; text-align: center; padding-top: 15px;}
+.SectionModalInner-down .box p.text {font-family: 'Proxima Nova Regular'; font-size: 14px; color: #000000; margin: 0; text-shadow: 1px 1px 2px rgba(251, 250, 70, 1);}
+.SectionModalInner-down .box p.bigtext {font-family: 'Proxima Nova Bold'; font-size: 22px; color: #000000; text-shadow: 1px 1px 2px rgba(251, 250, 70, 1);}
+
+.modal-input {height: 60px;}
+.erroe-text,label.error {position: absolute; padding: 15px; font-family: 'Proxima Nova Bold'; font-size: 13px; color: #c20c0c}
+.modalDialog-pismo a, .modalDialog-pismo a:hover {color: #000000}
+.modal-btn, .modal-btn:focus, .modal-btn:active {height: 62px; width: 200px; background: url("../img/modal_btn.png") no-repeat; font-family: 'Proxima Nova Bold'; font-size: 22px; text-shadow: 1px 1px 1px #fff; padding-right: 30px; line-height: 50px;}
+.hideclass {display: none}
+.showclass {display: block}
+
+
+/*slider*/
+.lineika {font-family: 'Proxima Nova Regular'; color: #9a9a9a; font-size: 12px; padding-top: 15px; text-align: center; float: left; width: 530px;}
+.box-min, .box-max {font-family: 'Proxima Nova Regular'; color: #9a9a9a; font-size: 12px; float: left;}
+.box-max {text-align: right; float: right}
+.ui-slider-horizontal {height: 4px; border-radius: 0; border: none; background: rgb(254, 218, 36); background: -moz-linear-gradient(90deg, rgb(254, 218, 36) 0%, rgb(254, 189, 22) 100%); background: -webkit-linear-gradient(90deg, rgb(254, 218, 36) 0%, rgb(254, 189, 22) 100%); background: -o-linear-gradient(90deg, rgb(254, 218, 36) 0%, rgb(254, 189, 22) 100%); background: -ms-linear-gradient(90deg, rgb(254, 218, 36) 0%, rgb(254, 189, 22) 100%); background: linear-gradient(180deg, rgb(254, 218, 36) 0%, rgb(254, 189, 22) 100%);}
+.ui-widget-header {background: #dddddd}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {border-radius: 30px; width: 30px; height: 30px; background: #fff}
+.ui-slider-horizontal .ui-slider-handle {top: -0.9em; margin-left: -0.9em;}
+.show--sc {
+    display: block;
+    pointer-events: auto;
+}
+.map .container {
+    margin-top: -600px;
+}
+@media screen and (max-width: 1280px) {
+   .right-box {
+      display: none;
+   }
+}
+@media screen and (max-width: 1000px) {
+   .menu-top .menu {
+    padding-left: 15px;
+   }
+   .calc .box-calc .box-title {
+    width: 180px;
+   }
+   .menu-top .contacts {
+        margin-right: 10px;
+   }
+   .box-banner .box-timmer {
+    width: 19%;
+   }
+}
+
+.submit-form-two label.error, .submit-form-three label.error  {
+    display: none !important;
+}
+.submit-form-two input.error, .submit-form-three input.error {
+    border: 2px solid red;
+    width: 284px;
+    height: 67px;
+}

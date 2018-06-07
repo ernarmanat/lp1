@@ -1,0 +1,21 @@
+@media (max-width: 1500px) {
+    .box-banner {width: 840px;}
+    .box-banner p.zag {font-family: 'Proxima Nova Light'; font-size: 50px; text-transform: uppercase}
+    .box-banner p.zag2 {font-family: 'Proxima Nova Light'; font-size: 24px; line-height: 100px;}
+    .box-banner .box-timmer p.number {font-family: 'Proxima Nova Bold'; font-size: 87px; margin: 0; line-height: 78px; display: inline-block}
+    .box-banner .box-timmer p.text-timmer {font-family: 'Proxima Nova Bold'; font-size: 14px;}
+    .pict-mac, .pict-imac {right: 5%;}
+}
+
+@media (max-width: 1366px) {
+    .carousel-indicators {bottom: 70px;}
+}
+
+@media (max-width: 1280px) {
+    .box-banner {width: 757px;}
+    .box-banner p.zag {font-family: 'Proxima Nova Light'; font-size: 45px; text-transform: uppercase}
+    .box-banner p.zag2 {font-family: 'Proxima Nova Light'; font-size: 21px; line-height: 100px;}
+    .box-banner .box-timmer p.number {font-family: 'Proxima Nova Bold'; font-size: 74px; margin: 0; line-height: 78px; display: inline-block}
+    .box-banner .box-timmer p.text-timmer {font-family: 'Proxima Nova Bold'; font-size: 12px;}
+    .pict-mac, .pict-imac {right: 5%;}
+}

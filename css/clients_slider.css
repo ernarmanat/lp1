@@ -1,0 +1,64 @@
+#flexiselDemo3 {display:none;}
+
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+    top: 25px;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:9999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+    text-align:center;
+
+}
+
+.nbs-flexisel-inner {
+    overflow:hidden;
+    float:left;
+    width:980px;
+    height: 150px;
+
+}
+
+.nbs-flexisel-item {
+    float:left;
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+    line-height:0px;
+}
+.nbs-flexisel-item img {
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width:200px;
+    max-height:150px;
+}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    width: 24px;
+    height: 52px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.5;
+}
+
+.nbs-flexisel-nav-left {
+    left: -24px;
+    background: url('../img/clients/arrows.png') no-repeat;
+}
+
+.nbs-flexisel-nav-right {
+    right: -48px;
+    background: url('../img/clients/arrows.png') no-repeat right;
+}
